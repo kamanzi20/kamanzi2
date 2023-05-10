@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head><title>DEATH</title>
+<style>
+ .cont{
+  width: 600px;
+  height: 490px;
+  background-color: skyblue;
+  border-radius: 10px;
+
+ }
+input{
+  width: 400px;
+height: 30px;
+border-radius: 6px;
+}
+
+label{
+  font-size: 24px;
+}
+.btn{
+  width: 400px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 0.7;
+  border: none;
+  border-radius: 8px;
+}
+.btn:hover{
+  opacity: 1;
+  transition: 0.2s;
+}
+.bt{
+  width: 400px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 0.7;
+  border: none;
+  border-radius: 8px;
+}
+.bt:hover{
+  opacity: 1;
+  transition: 0.2s;
+}
+button a{
+  color: snow;
+  text-decoration: none;
+}
+</style>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+
+<ul>
+ <nav> <li><a href="index.html">HOME</a></li>
+  <li><a href="#HYGIENE">HYGIENE</a></li>
+  <li class="d">
+    <a href="#" class="drop">CIVIL STATUS</a> <nav>
+    <div class="m">
+      <a href="birth.html">BIRTH PEOPLE</a>
+      <a href="DEATH.html">DEATH PEOPLE</a>
+      <a href="birth certification.html">CERTIFICATION OF BIRTH</a>
+      <a href="marriage.html">MARRIAGE REGISTRATION</a>
+    </div>
+  </li>
+  <li><a href="#AGRICULTURE">AGRICULTURE</a></li>
+  <li><a href="about.html">ABOUT US</a></li>
+</ul>
+<form action="name"><br>
+  <center><div class="cont">
+    <h1>PERSONAL INFORMATION</h1>
+    <p></p>
+    <hr><BR>
+
+    <label><b>names of person who dead</b></label><br>
+    <input type="text" placeholder="both names" name="names" required autocomplete="off"><br>
+
+    <label><b>where she/he lived(cell)</b></label><br>
+    <input type="text" placeholder="cell" name="cell" required autocomplete="off"><br>
+<label ><b>Village</b></label><br>
+    <input type="text" placeholder="village" name="village" required autocomplete="off"><br>
+    <label><b>when he/she born (dates)</b></label><br>
+    <input type="date" name="dates" required autocomplete="off"><br>
+     <label><b>when he/she died (dates)</b></label><br>
+    <input type="date" name="dates" required autocomplete="off"><br><br>
+   <button type="submit" class="btn"><a href="removed.html">SEND</a></button><BR><BR>
+     <button type="reset" class="bt">RESET</button>
+  </div></center>
+  
+  </div>
+</body>
+</html>
